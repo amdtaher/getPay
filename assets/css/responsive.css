@@ -1,0 +1,282 @@
+/* Extra Large Device Checking Size- 1200px */
+@media only screen and (min-width:1191px) and (max-width:1450px){
+    .container{
+        width: 1170px;
+    }
+    /* Hero Right */
+    .hero-right{
+        justify-content: flex-start;
+    }
+}
+
+/* Large Device Checking Size- 1000px */
+@media only screen and (min-width:992px) and (max-width:1190px){
+    .container{
+        width: 970px;
+    }
+    /* Hero */
+    .hero-img2{
+        bottom: 5%;
+    }
+}
+
+/* Tablet Device Checking Size- 800px */
+@media only screen and (min-width:768px) and (max-width:991px){
+    .container{
+        width: 750px;
+    }
+    /* Hero */
+    .hero{
+        padding-top: 5rem;
+    }
+    .hero-title {
+        font-size: 5rem;
+        line-height: 5.5rem;
+    }
+    .hero-paragraph{
+        padding-right: 2rem;
+    }
+    .hero-img1{
+        display: none;
+    }
+    .hero-img2 {
+        bottom: auto;
+    }
+    /* Brands */
+    .brands {
+        margin-block: 2rem;
+        gap: 4rem;
+        padding: 3rem 5rem;
+        background-color: var(--white_color );
+        box-shadow: 0px 17px 62px 0px rgba(2, 6, 12, 0.07);
+        border-radius: 32px;
+    }
+    /* Works */
+    .works{
+        flex-direction: column;
+    }
+    .work, .feature{
+        gap: 4rem;
+    }
+    /* About */
+    .about{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    /* Features */
+    .features{
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .feature1, .feature2, .feature3{
+        padding-block: 0;
+        margin-top: 0;
+    }
+    .features .section-title{
+        position: relative;
+    }
+    /* Bonus */
+    .bonus-card1{
+        left: 0% !important;
+    }
+    .bonus-card2 {
+        right: 0% !important;
+    }
+    /* App */
+    .app{
+        padding: 6rem;
+    }
+    .app-links{
+        margin-top: 1rem;
+    }
+    /* Footer */
+    .footer{
+        flex-direction: column;
+    }
+}
+
+/* Mobile Device Checking Size- 400px */
+@media only screen and (max-width:767px){
+    body{
+        padding: 0;
+    }
+    .container{
+        width: 350px;
+    }
+    /* Header */
+    .header-section::before{
+        content: none;
+    }
+    /* NavBar */
+    .nav{
+        position: relative;
+    }
+    .nav-left{
+        
+        gap: 0rem;
+    }
+    .show{
+        display: flex !important;
+    }
+    .navlinks{
+        display: none;
+        flex-direction: column;
+        background-color: var(--grey_color);
+        border-radius: 1rem;
+        padding: 2rem 5rem;
+        position: absolute;
+        top: 20%;
+        right: 15%;
+        z-index: 1;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .navlinks .nav-btn{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+    }
+    /* Hero */
+    .hero{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .hero-img2{
+        width: 100%;
+        bottom: 5%;
+    }
+    /* Brands */
+    .brands{
+        margin-top: 5rem;
+        padding: 0;
+        flex-direction: column;
+    }
+    /* Works */
+    .works{
+        flex-direction: column;
+    }
+    .work, .feature{
+        gap: 4rem;
+    }
+    /* About */
+    .about{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    /* Features */
+    .features{
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .feature1, .feature2, .feature3{
+        padding-block: 0;
+        margin-top: 0;
+    }
+    .features .section-title{
+        position: relative;
+    }
+    /* Bonus */
+    .bonus{
+    flex-direction: column-reverse;
+    gap: 5rem
+    }
+    .bonus-card2 {
+        right: -3% !important;
+    }
+    .bonus-card1 {
+        left: -4% !important;
+    }
+    /* App */
+    .app{
+        padding: 3rem;
+    }
+    .app-links{
+        margin-top: 1rem;
+    }
+    /* Footer */
+    .footer{
+        flex-direction: column;
+    }
+}
+
+/* Wide Mobile Device Checking Size- 500px */
+@media only screen and (min-width:480px) and (max-width:767){
+    .container{
+        width: 450px;
+    }
+    /* Header */
+    .header-section::before{
+        content: none;
+    }
+    /* NavBar */
+    .nav{
+        position: relative;
+    }
+    .nav-left{
+        gap: 0rem;
+    }
+    .show{
+        display: flex !important;
+    }
+    .navlinks{
+        display: none;
+        flex-direction: column;
+        background-color: var(--grey_color);
+        border-radius: 1rem;
+        padding: 2rem 5rem;
+        position: absolute;
+        top: 20%;
+        right: 15%;
+        z-index: 1;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .navlinks .nav-btn, .hamburger{
+        display: block;
+    }
+    /* Hero */
+    .hero{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .hero-img2{
+        width: 100%;
+        bottom: 5%;
+    }
+    /* Brands */
+    .brands{
+        margin-top: 5rem;
+        padding: 0;
+        flex-direction: column;
+    }
+    /* Works */
+    .works{
+        flex-direction: column;
+    }
+    .work, .feature{
+        gap: 4rem;
+    }
+    /* About */
+    .about, .bonus{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 5rem
+    }
+    /* Features */
+    .features{
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .feature1, .feature2, .feature3{
+        padding-block: 0;
+        margin-top: 0;
+    }
+    .features .section-title{
+        position: relative;
+    }
+}
